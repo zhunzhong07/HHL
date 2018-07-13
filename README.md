@@ -13,12 +13,12 @@ Code for Generalizing A Person Retrieval Model Hetero- and Homogeneously (ECCV 2
    
    - reid_dataset [[GoogleDriver]](https://drive.google.com/open?id=1GABeDHWOEBGhEceYiSwr3ghUAl0Ne12X)
    
-   - The reid_dataset including Market-1501 (with CamStyle), DukeMTMC-reID (with CamStyle), CUHK03
+   - The reid_dataset including Market-1501 (with CamStyle), DukeMTMC-reID (with CamStyle), and CUHK03
    
    - Unzip reid_dataset under 'HHL/data/'
    
 ### CamStyle Generation
-You can train CamStyle model and generate CamStyle imgaes with [https://github.com/zhunzhong07/HHL/tree/master/stargan4reid)
+You can train CamStyle model and generate CamStyle imgaes with [stargan4reid](https://github.com/zhunzhong07/HHL/tree/master/stargan4reid)
 
 ### Training and test re-ID model
 
@@ -26,7 +26,7 @@ You can train CamStyle model and generate CamStyle imgaes with [https://github.c
   ```Shell
   # For Duke to Market-1501
   python baseline.py -s duke -t market --logs-dir logs/duke2market-baseline
-  # For Duke
+  # For Market-1501 to Duke
   python baseline.py -s market -t duke --logs-dir logs/market2duke-baseline
   ```
 
@@ -34,7 +34,7 @@ You can train CamStyle model and generate CamStyle imgaes with [https://github.c
   ```Shell
   # For Duke to Market-1501
   python HHL.py -s duke -t market --logs-dir logs/duke2market-HHL
-  # For Duke
+  # For Market-1501 to Duke
   python HHL.py -s market -t duke --logs-dir logs/market2duke-HHL
   ```
   
@@ -58,7 +58,7 @@ You can train CamStyle model and generate CamStyle imgaes with [https://github.c
       <td>Baseline</td>
       <td>44.6</td>
       <td>20.6</td>
-      <td>32.9/td>
+      <td>32.9</td>
       <td>16.9</td>
    </tr>
    <tr>
