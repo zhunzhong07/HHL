@@ -20,7 +20,7 @@ Code for Generalizing A Person Retrieval Model Hetero- and Homogeneously (ECCV 2
 ### CamStyle Generation
 You can train CamStyle model and generate CamStyle imgaes with [stargan4reid](https://github.com/zhunzhong07/HHL/tree/master/stargan4reid)
 
-### Training and test re-ID model
+### Training and test domain adaptation model for person re-ID
 
 1. Baseline
   ```Shell
