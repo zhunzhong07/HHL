@@ -26,6 +26,13 @@ CamStyle is trained with [StarGAN](https://github.com/yunjey/StarGAN)
   sh train_test_duke.sh
   ```
 
+# Pre-trained CamStyle models
+- Market [[Google Drive]](https://drive.google.com/open?id=1DGSpnHAq8y_HfmnPYZUsJrpDRkvLzNMe)
+
+- Duke [[Google Drive]](https://drive.google.com/open?id=1etumVK_DdP0-_rkSQbU-XQlMLFT0MzAS)
+
+
+
 ## Citation
 If you use this code for your research, please cite our papers.
 ```
