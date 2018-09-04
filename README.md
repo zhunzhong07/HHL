@@ -1,7 +1,7 @@
-# [Generalizing A Person Retrieval Model Hetero- and Homogeneously](https://github.com/zhunzhong07/zhunzhong07.github.io/blob/master/paper/HHL.pdf)
+# [Generalizing A Person Retrieval Model Hetero- and Homogeneously](http://openaccess.thecvf.com/content_ECCV_2018/html/Zhun_Zhong_Generalizing_A_Person_ECCV_2018_paper.html)
 ================================================================
 
-Code for Generalizing A Person Retrieval Model Hetero- and Homogeneously (ECCV 2018). [[paper]](https://github.com/zhunzhong07/zhunzhong07.github.io/blob/master/paper/HHL.pdf) 
+Code for Generalizing A Person Retrieval Model Hetero- and Homogeneously (ECCV 2018). [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/html/Zhun_Zhong_Generalizing_A_Person_ECCV_2018_paper.html) 
 
 ### Preparation
 
