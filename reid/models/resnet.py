@@ -97,9 +97,10 @@ class ResNet(nn.Module):
         if self.num_classes > 0:
             x_class = self.classifier(x)
         # two outputs
-        if self.triplet_features > 0:
-            return x_class, x_triplet
-        return x_class
+        if output_feature == 'triplet':
+            return x_triplet
+        else:
+            return x_class
 
     def reset_params(self):
         for m in self.modules():
