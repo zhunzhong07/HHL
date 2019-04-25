@@ -161,9 +161,9 @@ class HHLTrainer(object):
 
     def _forward(self, inputs_source, pids_source, inputs_source_triplet, pids_source_triplet,
                                         inputs_target, pids_target, epoch):
-        outputs_source, _ = self.model(inputs_source)
-        _, outputs_source_triplet = self.model(inputs_source_triplet)
-        _, outputs_target = self.model(inputs_target)
+        outputs_source = self.model(inputs_source)
+        outputs_source_triplet = self.model(inputs_source_triplet, 'triplet')
+        outputs_target = self.model(inputs_target, 'triplet')
 
         # cross-entropy loss for source
         loss_c = self.criterion_c(outputs_source, pids_source)
